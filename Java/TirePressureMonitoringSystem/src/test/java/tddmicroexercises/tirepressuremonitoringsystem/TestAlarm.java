@@ -1,14 +1,11 @@
 package tddmicroexercises.tirepressuremonitoringsystem;
 
-
-import org.junit.*;
-import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class TestAlarm {
 
-    @Test
-    public void foo() {
-        Alarm alarm = new Alarm();
-        assertEquals(false, alarm.isAlarmOn());
-    }
+  @Test
+  public void test_alarm_creation() {
+    new Alarm();
+  }
 }
