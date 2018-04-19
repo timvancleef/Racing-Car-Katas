@@ -4,7 +4,7 @@ public class Alarm {
   private final double LowPressureThreshold = 17;
   private final double HighPressureThreshold = 21;
 
-  // Sensor should also be able to use new SensorAscending
+  // Alarm should also be able to use SensorAscending
   Sensor sensor = new Sensor();
 
   boolean alarmOn = false;

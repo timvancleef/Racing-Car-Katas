@@ -5,7 +5,7 @@ import org.junit.Test;
 public class TestAlarm {
 
   @Test
-  public void test_alarm_creation() {
+  public void test_create_alarm() {
     new Alarm();
   }
 }
